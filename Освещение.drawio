@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.15">
   <diagram name="Страница — 1" id="RiNldU15HpcVoyJYfxmf">
-    <mxGraphModel dx="1184" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2132" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,12 +30,6 @@
             <mxPoint x="900" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0FDGuPMrHh6v5uQJFrAX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1100" y="350" as="targetPoint" />
-            <mxPoint x="840" y="280" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0FDGuPMrHh6v5uQJFrAX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1390" y="360" as="targetPoint" />
@@ -51,7 +45,7 @@
         <mxCell id="0FDGuPMrHh6v5uQJFrAX-18" value="Да" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0FDGuPMrHh6v5uQJFrAX-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-22" value="Работа датчика передвижения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0FDGuPMrHh6v5uQJFrAX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-24" target="0FDGuPMrHh6v5uQJFrAX-29">
@@ -104,6 +98,30 @@
         </mxCell>
         <mxCell id="0FDGuPMrHh6v5uQJFrAX-39" value="Да" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-41" target="0FDGuPMrHh6v5uQJFrAX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-41" target="0FDGuPMrHh6v5uQJFrAX-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-41" value="В помещении находится человек?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="496.33" width="320" height="252.67" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0FDGuPMrHh6v5uQJFrAX-22" target="0FDGuPMrHh6v5uQJFrAX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-44" value="Да" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="745" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-45" value="Включается свет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-47" value="Остановка функции" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="592.67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0FDGuPMrHh6v5uQJFrAX-48" value="Нет" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="580" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
